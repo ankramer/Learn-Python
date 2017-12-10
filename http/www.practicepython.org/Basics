@@ -1,0 +1,47 @@
+# Character Input
+age = int(input("How old are you: "))
+  How old are you: 22
+year = str((2017 - age) + 100)
+  print(name + " will be 100 years old in the year " + year)
+    Alex will be 100 years old in the year 2095
+   
+# Odd or Even Solutions
+num = input("Enter a number: ")
+mod = num % 2
+if mod > 0:
+    print("You picked an odd number.")
+else:
+    print("You picked an even number.")
+
+#Extracting from Lists
+a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+for i in a:
+	if i <= 5:
+		print(i)
+    
+# Divisors Solutions
+num = int(input("Please choose a number to divide: "))
+listRange = list(range(1,num+1))
+divisorList = []
+for number in listRange:
+    if num % number == 0:
+        divisorList.append(number)
+print(divisorList)
+
+num = int(input("Enter a number: "))
+Enter a number: 100
+listRange = list(range(1+num+1))
+divisorList = []
+for number in listRange:
+	if num % number == 0:
+		divisorlist.append(number)
+    
+# Sample String Reversal
+wrd=input("Please enter a word: ")
+wrd=str(wrd)
+rvs=wrd[::-1]
+print(rvs)
+if wrd == rvs:
+    print("This word is a palindrome")
+else:
+    print("This word is not a palindrome")
